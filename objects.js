@@ -16,6 +16,16 @@
 
 //CODE HERE
 
+const me = {
+  firstName: 'Emmanuel',
+  state: 'Pennsylvania',
+  age: 31,
+  greeter(){
+    return `Hello! My name is ${this.firstName} and I live in ${this.state}.`
+  }
+}
+
+console.log(me.greeter())
 
 
 
@@ -45,3 +55,21 @@
 */
 
 //CODE HERE
+function carFactory(make, model, year){
+  let obj = {};
+
+  obj.make = make;
+  obj.model = model;
+  obj.year = year;
+
+  if (year > 2018) {
+    obj.isNew = true;
+  } else {
+    obj.isNew = false;
+  }
+
+  return obj
+}
+
+console.log(carFactory('Tesla', 'Model 3', 2021))
+console.log(carFactory('Mazda', '6', 2017))
