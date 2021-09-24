@@ -86,7 +86,7 @@ const add = {
 //CODE HERE
 const commit = {
     description: 'Records the changes made in the repository',
-    code: 'git commit -m "<message"'
+    code: 'git commit -m "<message>"'
 }
 
 //////////////////PROBLEM 8////////////////////
