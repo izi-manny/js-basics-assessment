@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = 'Git is a version control system used to track changes in code and collaborate with other programmers';
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +18,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = 'GitHub is an online repository used to save code remotely';
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -34,6 +35,11 @@
 */
 
 //CODE HERE
+const init = {
+    description: 'Initializes a git repo in the current directory',
+    code: 'git init'
+}
+
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+const clone = {
+    description: 'Creates a copy of the entire repository in the current directory',
+    code: 'git clone <repo url>'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+const status = {
+    description: 'Displays the status of files in the repo. It allows a user to see whether the files have been changed, and if they are tracked or untracked.',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+const add = {
+    description: 'Starts tracking changes in files',
+    code: 'git add [file or directory]'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +84,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    description: 'Records the changes made in the repository',
+    code: 'git commit -m "<message"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +96,7 @@
 */
 
 //CODE HERE
+const push = {
+    description: 'Uploads the local repository to a remote repository, like GitHub. Said differently, pushing transfers commits from a local repo onto a remote repo, thereby overwriting changes.',
+    code: 'git push <repo name> <branch name>'
+}
