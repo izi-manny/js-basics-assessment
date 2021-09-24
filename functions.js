@@ -57,4 +57,4 @@ function iLove(name, love){
   return `${name} loves ${love}`
 }
 
-console.log('Emmanuel', 'coding')
+console.log(iLove('Emmanuel', 'coding'))
